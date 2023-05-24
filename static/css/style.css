@@ -1,0 +1,80 @@
+body{
+    background-color: bisque;
+   
+}
+
+
+  .sign-register-button {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  .sign-register-button ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+  }
+  
+  .sign-register-button li {
+    margin-left: 10px;
+  }
+  
+  .sign-register-button li.right-link {
+    margin-left: auto;
+  }
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+.form-post {
+    margin: 5% 5%;
+    text-align: center;
+
+}
+.welcome-title{
+    text-align: center;
+}
+
+.all_posts_list{
+    text-align: left;
+    width: 50%;
+    margin: 1% 4%;
+    font-size: 1rem;
+    font-weight: lighter;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+textarea {
+    width: 50%;
+    height: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+}
+.opas {
+    opacity: 0.3
+}
+h3{
+    font-weight: lighter;
+}
+.profile-entry{
+  font-size: 1.7rem;
+  text-align: center;
+}

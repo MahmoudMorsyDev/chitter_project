@@ -1,0 +1,9 @@
+<div class="message_form">
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+        {% for message in messages %}
+        <p class="invalid-message" style="color: red;">{{ message }}</p>
+        {% endfor %}
+        {% endif %}
+        {% endwith %}
+</div>

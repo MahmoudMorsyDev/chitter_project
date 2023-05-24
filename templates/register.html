@@ -1,0 +1,27 @@
+{% extends 'main.html' %}
+<body>
+{% block content %}
+    <form action="/register" method="post">
+        <label for="your-name">Your Name</label>
+        <input type="text" name="your-name">
+        
+
+        <label for="your-email">Email</label>
+        <input type="text" name='your-email'>
+      
+        <label for="your-user-name">User Name</label>
+        <input type="text" name='your-user-name'>
+     
+        <label for="your-password">Choose a Password</label>    
+        <input type="password" name='your-password'>
+        
+
+        <label for="your-repasswrod">Confirm Password</label>
+        <input type="password" name='your-repasswrod'>
+
+        <input type="submit" value="Complete registeration">
+    </form>
+    {% endblock %}    
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+  
+{% extends 'main.html' %}
+{% block content %}
+<div class="container form-post">
+    <div class="form-box">
+        <h2>Create a Post</h2>
+    </div>
+    <form action="/home" method="post">
+        <div class="form-box">
+            <textarea type="text" name="message_body"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Create Post">
+        </div>
+        
+    </form>
+</div>
+{% include 'posts.html' %}
+
+{% endblock %}    

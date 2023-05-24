@@ -1,0 +1,13 @@
+
+
+
+
+{% for post in all_posts %}
+<div class="all_posts_list">
+     <small class="opas"> at {{ post.posted }}</small>
+    <a href="/usersposts/{{ post.user_id }}">{{ post.author }}</a> 
+    <h3>{{ post.body|safe }}</h3>
+    
+    {% if current_user.id == post.user_id %} <a href="/delete/{{post.id}}">Delete post</a> {% endif %}
+</div>
+{% endfor %}
